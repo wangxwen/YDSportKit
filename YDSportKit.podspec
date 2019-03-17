@@ -21,7 +21,9 @@ Pod::Spec.new do |s|
   # s.source_files  = 'YDSportKit'
   # s.public_header_files = 'YDSportKit.framework/Headers/*.h'
 
+  s.frameworks = 'CoreFoundation', 'CoreGraphics', 'Foundation', 'ImageIO', 'MobileCoreServices', 'Security', 'QuartzCore', 'SystemConfiguration', 'UIKit'
   s.vendored_frameworks = 'YDSportKit.framework'
+
   s.platform = :ios, '8.0'
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
