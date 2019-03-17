@@ -16,10 +16,12 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'wangxuewen' => 'wangxuewen@51yund.com' }
   s.source       = { :git => "https://github.com/wangxwen/YDSportKit.git", :tag => "#{s.version}" }
+  s.description  = 'provided by yodo.'
 
   # s.source_files  = 'YDSportKit'
-  # s.public_header_files = 'YDSportKit/YDSportKit.framework/Headers/*.h'
-  s.framework = 'YDSportKit'
+  # s.public_header_files = 'YDSportKit.framework/Headers/*.h'
+
+  s.vendored_frameworks = 'YDSportKit.framework'
   s.platform = :ios, '8.0'
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
