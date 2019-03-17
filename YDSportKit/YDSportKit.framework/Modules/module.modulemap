@@ -1,0 +1,6 @@
+framework module YDSportKit {
+  umbrella header "YDSportKit.h"
+
+  export *
+  module * { export * }
+}
