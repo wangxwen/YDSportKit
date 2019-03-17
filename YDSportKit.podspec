@@ -14,11 +14,11 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/wangxwen/YDSportKit"
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-  s.author             = { "wangxuewen" => "wangxuewen@51yund.com" }
+  s.author       = { "wangxuewen" => "wangxuewen@51yund.com" }
   s.source       = { :git => "https://github.com/wangxwen/YDSportKit.git", :tag => "#{s.version}" }
 
-  s.source_files  = "YDSportKit"
-  s.public_header_files = 'YDSportKit/*.h'
+  s.source_files  = 'YDSportKit'
+  # s.public_header_files = 'YDSportKit/*.h'
 
   s.platform = :ios, '8.0'
   s.ios.deployment_target = '8.0'
