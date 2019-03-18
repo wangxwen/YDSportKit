@@ -13,6 +13,7 @@
 
 @protocol YDSportManagerDelegate <NSObject>
 
+@optional
 /** 点击计步分享的回调
  @param manager YDSportManager
  @param shareImage 要分享的图片
