@@ -50,7 +50,7 @@
  @completionHandle 结果回调
  */
 + (void)showYDSportHomepageWithViewController:(UIViewController * _Nonnull)currentVC
-                            completionHanlder:(void (^)(BOOL success, MSError *error))completionHandler;
+                            completionHanlder:(void (^)(BOOL success, UIViewController *targatVC, MSError *error))completionHandler;
 
 @end
 

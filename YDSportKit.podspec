@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YDSportKit"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = 'YDSportKit.'
 
   s.homepage     = 'https://github.com/wangxwen/YDSportKit'
@@ -31,20 +31,19 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 
-  s.dependency 'AFNetworking', '~> 3.0'
-  s.dependency 'Masonry', '~> 1.0.2'
-  s.dependency 'DateTools', '~> 2.0.0'
-  s.dependency 'FMDB', '~> 2.6'
-  s.dependency 'Reachability', '~> 3.2'
-  s.dependency 'MBProgressHUD', '~> 1.0.0'
-  s.dependency 'SVProgressHUD', '~> 2.1.2'
-  s.dependency 'MMPopupView', '~> 1.6'
-  s.dependency 'UICountingLabel', '~> 1.4.0'
+  s.dependency 'AFNetworking'
+  s.dependency 'Masonry'
+  s.dependency 'DateTools'
+  s.dependency 'FMDB'
+  s.dependency 'Reachability'
+  s.dependency 'MBProgressHUD'
+  s.dependency 'SVProgressHUD'
+  s.dependency 'MMPopupView'
+  s.dependency 'UICountingLabel'
   s.dependency 'SDWebImage'
-  s.dependency 'YYDispatchQueuePool', '~> 1.0'
+  s.dependency 'YYDispatchQueuePool'
   s.dependency 'YYCache'
-  s.dependency 'CocoaLumberjack', '~> 3.4.1'
-  # s.dependency 'YCMatrix'
+  s.dependency 'CocoaLumberjack'
 
 
 end
