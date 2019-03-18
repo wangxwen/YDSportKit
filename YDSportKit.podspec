@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'YDSportKit.framework/Headers/*.h'
 
   s.frameworks = 'CoreFoundation', 'CoreGraphics', 'Foundation', 'ImageIO', 'MobileCoreServices', 'Security', 'QuartzCore', 'SystemConfiguration', 'UIKit'
-  s.vendored_frameworks = 'YDSportKit.framework'
-  s.resources    = 'YDSportKit.bundle'
+  s.vendored_frameworks = 'YDSportKit/YDSportKit.framework'
+  s.resources    = 'YDSportKitYDSportKit.bundle'
 
   s.platform = :ios, '8.0'
   s.ios.deployment_target = '8.0'
@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
   s.dependency 'YYDispatchQueuePool', '~> 1.0'
   s.dependency 'YYCache'
   s.dependency 'CocoaLumberjack', '~> 3.4.1'
-  s.dependency 'YCMatrix'
+  # s.dependency 'YCMatrix'
 
 
 end
