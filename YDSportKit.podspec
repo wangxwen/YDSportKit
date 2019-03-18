@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YDSportKit"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = 'YDSportKit.'
 
   s.homepage     = 'https://github.com/wangxwen/YDSportKit'
