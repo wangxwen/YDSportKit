@@ -52,5 +52,10 @@
 + (void)showYDSportHomepageWithViewController:(UIViewController * _Nonnull)currentVC
                             completionHanlder:(void (^)(BOOL success, UIViewController *targatVC, MSError *error))completionHandler;
 
+/** 初始化运动计步页控制器
+ @completionHandle 结果回调,viewController:生成的控制器,success==NO时为nil
+ */
++ (void)initYDSportHomepageViewController:(void (^)(BOOL success, UIViewController *viewController, MSError *error))completionHandler;
+
 @end
 
