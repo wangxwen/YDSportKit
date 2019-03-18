@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'wangxuewen' => 'wangxuewen@51yund.com' }
   s.source       = { :git => "https://github.com/wangxwen/YDSportKit.git", :tag => "#{s.version}" }
-  s.description  = 'provided by yodo.'
+  # s.description  = 'provided by yodo.'
 
   # s.source_files  = 'YDSportKit'
   # s.public_header_files = 'YDSportKit.framework/Headers/*.h'
