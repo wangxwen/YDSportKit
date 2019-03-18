@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'CoreFoundation', 'CoreGraphics', 'Foundation', 'ImageIO', 'MobileCoreServices', 'Security', 'QuartzCore', 'SystemConfiguration', 'UIKit'
   s.vendored_frameworks = 'YDSportKit/YDSportKit.framework'
-  s.resources    = 'YDSportKitYDSportKit.bundle'
-
+  s.resources    = 'YDSportKit/YDSportKit.bundle'
+  s.libraries = 'c++'
   s.platform = :ios, '8.0'
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
