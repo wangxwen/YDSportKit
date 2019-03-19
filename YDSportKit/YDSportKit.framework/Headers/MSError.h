@@ -42,5 +42,4 @@ typedef NS_ENUM(NSInteger, MSErrorCode) {
 
 + (instancetype)errorWithError: (NSError *)error;
 
-
 @end
