@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   s.dependency 'MMPopupView'
   s.dependency 'UICountingLabel'
   s.dependency 'SDWebImage'
-  s.dependency 'SDWebImage/WebP'
+  # s.dependency 'SDWebImage/WebP'
   s.dependency 'YYDispatchQueuePool'
   s.dependency 'YYCache'
   s.dependency 'CocoaLumberjack'
