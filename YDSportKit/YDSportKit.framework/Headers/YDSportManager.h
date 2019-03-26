@@ -21,6 +21,19 @@
  */
 - (void)sportManager:(YDSportManager *)manager didTriggerShareStep:(UIImage *)shareImage currentVC:(UIViewController *)currentVC;
 
+/** 点击室外跑分享的回调
+ @param manager YDSportManager
+ @param shareImage 要分享的图片
+ @param currentVC 分享页控制器
+ */
+- (void)sportManager:(YDSportManager *)manager didTriggerShareRunOutdoor:(UIImage *)shareImage currentVC:(UIViewController *)currentVC;
+
+/** 点击室内跑分享的回调
+ @param manager YDSportManager
+ @param shareImage 要分享的图片
+ @param currentVC 分享页控制器
+ */
+- (void)sportManager:(YDSportManager *)manager didTriggerShareRunIndoor:(UIImage *)shareImage currentVC:(UIViewController *)currentVC;
 @end
 
 @interface YDSportManager : NSObject
@@ -40,12 +53,17 @@
                    appKey:(NSString *)appKey
         completionHanlder:(void (^)(BOOL success, MSError *error))completionHandler;
 
+/** 设置高德apiKey
+ @param APIkey 在高德官网上生成的APIkey
+ */
++ (void)setupGaodeMapAPIKey:(NSString *)APIkey;
+
 /**
  获取SDK注册状态
  */
 + (BOOL)registerSuccess;
 
-/** 弹出运动计步页
+/** 弹出悦动运动首页
  @param currentVC 当前控制器
  @completionHandle 结果回调
  */
